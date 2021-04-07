@@ -12,25 +12,35 @@ public class PlayerController : MonoBehaviour
 
     //public variables to control speed
     public float movementSpeed;
+    //fuel variable
+    public float fuel;
+    public float fuelUsed;
     // Update is called once per frame
     void FixedUpdate()
     {
-       //controls for movement 
-       if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))//move up 
+        if (fuel > 0)
         {
-            GetComponent<Rigidbody2D>().AddForce(transform.up * Time.deltaTime * movementSpeed);
-        }
-       else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))///move down
-        {
-            GetComponent<Rigidbody2D>().AddForce(transform.up * Time.deltaTime * movementSpeed * -1); //opposite force for down movement so we use - 1
-        }
-       else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))//move right
-        {
-            GetComponent<Rigidbody2D>().AddForce(transform.right * Time.deltaTime * movementSpeed);
-        }
-       else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))//move left
-        {
-            GetComponent<Rigidbody2D>().AddForce(transform.right * Time.deltaTime * movementSpeed * - 1);
+            //controls for movement 
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))//move up 
+            {
+                GetComponent<Rigidbody2D>().AddForce(transform.up * Time.deltaTime * movementSpeed);
+                fuel = fuel - fuelUsed;
+            }
+            else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))///move down
+            {
+                GetComponent<Rigidbody2D>().AddForce(transform.up * Time.deltaTime * movementSpeed * -1); //opposite force for down movement so we use - 1
+                fuel = fuel - fuelUsed;
+            }
+            else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))//move right
+            {
+                GetComponent<Rigidbody2D>().AddForce(transform.right * Time.deltaTime * movementSpeed);
+                fuel = fuel - fuelUsed;
+            }
+            else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))//move left
+            {
+                GetComponent<Rigidbody2D>().AddForce(transform.right * Time.deltaTime * movementSpeed * -1);
+                fuel = fuel - fuelUsed;
+            }
         }
         
     }
