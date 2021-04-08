@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     //public variables to control speed
     public float movementSpeed;
     //fuel variable
     public float fuel;
     public float fuelUsed;
+    public float maxFuel;
+    // Start is called before the first frame update
+    void Start()
+    {
+        fuel = maxFuel;
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
