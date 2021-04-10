@@ -10,10 +10,13 @@ public class PlayerController : MonoBehaviour
     public float fuel;
     public float fuelUsed;
     public float maxFuel;
+    public float currentResources;
+
     // Start is called before the first frame update
     void Start()
     {
         fuel = maxFuel;
+        currentResources = 0;
     }
 
     // Update is called once per frame
@@ -45,4 +48,10 @@ public class PlayerController : MonoBehaviour
         }
         
     }
+        public void addToResources(float addValue)
+    {
+        Debug.Log("working yay");
+        currentResources +=  addValue;
+    }
+
 }

@@ -67,7 +67,10 @@
     <Compile Include="Assets\Scripts\Depth_script.cs" />
     <Compile Include="Assets\Scripts\Fuel_script.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MiningStone.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\miningLaser.cs" />
+    <Compile Include="Assets\Scripts\resources_display.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/programs/Unity/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

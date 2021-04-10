@@ -30,7 +30,7 @@ public class Depth_script : MonoBehaviour
         depthValue = (int)depthValueFloat;
         //take away 1 so depth starts at 0
         depthValue--;
-        depth.text = "Depth: " + depthValue + "M";
+        depth.text = "Depth " + depthValue + "M";
     }
 }
 

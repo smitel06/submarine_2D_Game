@@ -19,6 +19,6 @@ public class Fuel_script : MonoBehaviour
     {
         //get fuel value from the playercontroller script
         fuelValue = player.GetComponent<PlayerController>().fuel;
-        fuel.text = "FUEL: " + fuelValue;
+        fuel.text = "FUEL " + fuelValue;
     }
 }
