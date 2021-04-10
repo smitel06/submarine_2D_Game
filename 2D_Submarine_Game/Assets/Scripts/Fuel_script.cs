@@ -7,18 +7,42 @@ public class Fuel_script : MonoBehaviour
 {
     public GameObject player;//this is the player
     public static float fuelValue = 0;
-    Text fuel;
+    //fuel gauge variables
+    private Transform fuelNeedleTransform;
+    private const float MAX_FUEL_ANGLE = -20;
+    private const float ZERO_FUEL_ANGLE = 200;
+    public float fuelMax;
+    public float fuelGauge;
+
+    
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        fuel = GetComponent<Text>();
+        fuelNeedleTransform = transform.Find("FuelNeedle"); //gets the transform of the needle used for the fuel gauge
+        fuelGauge = fuelMax;
+        fuelMax = player.GetComponent<PlayerController>().maxFuel;
     }
+
 
     // Update is called once per frame
     void Update()
     {
-        //get fuel value from the playercontroller script
         fuelValue = player.GetComponent<PlayerController>().fuel;
-        fuel.text = "FUEL " + fuelValue;
+        fuelGauge = fuelValue;
+        if(fuelGauge > fuelMax)
+        {
+            fuelGauge = fuelMax;
+        }
+        fuelNeedleTransform.eulerAngles = new Vector3(0, 0, GetFuelRotation());
+        fuelNeedleTransform.SetAsLastSibling(); //puts needle on top
+    }
+
+    //works out rotation value for needle
+    private float GetFuelRotation()
+    {
+        float totalAngleSize = ZERO_FUEL_ANGLE - MAX_FUEL_ANGLE;
+        float fuelNormalized = fuelGauge / fuelMax;
+
+        return ZERO_FUEL_ANGLE - fuelNormalized * totalAngleSize;
     }
 }

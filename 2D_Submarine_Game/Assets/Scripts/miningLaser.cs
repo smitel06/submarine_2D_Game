@@ -38,7 +38,10 @@ public class miningLaser : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(laserFirePoint.position, transform.right);
             drawLaser(laserFirePoint.position, hit.point);
-            hit.transform.SendMessage("HitByLaser");
+            if (hit)
+            {
+                hit.transform.SendMessage("HitByLaser");
+            }
         }
         else
         {

@@ -50,7 +50,6 @@ public class PlayerController : MonoBehaviour
     }
         public void addToResources(float addValue)
     {
-        Debug.Log("working yay");
         currentResources +=  addValue;
     }
 
