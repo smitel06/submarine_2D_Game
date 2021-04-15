@@ -40,7 +40,7 @@ public class miningLaser : MonoBehaviour
             drawLaser(laserFirePoint.position, hit.point);
             if (hit)
             {
-                hit.transform.SendMessage("HitByLaser");
+                hit.transform.SendMessage("HitByLaser", hit);
             }
         }
         else

@@ -1,0 +1,4160 @@
+fileFormatVersion: 2
+guid: b3d78c648586cb241bb3ba37df7dcf80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7375206116651046738
+    second: Island_map_0
+  - first:
+      213: -5797303602238388154
+    second: Island_map_1
+  - first:
+      213: 1092359545462876656
+    second: Island_map_2
+  - first:
+      213: 5077464497584876802
+    second: Island_map_3
+  - first:
+      213: -975177064110742876
+    second: Island_map_4
+  - first:
+      213: 7263504392961692084
+    second: Island_map_5
+  - first:
+      213: 1851392856218194469
+    second: Island_map_6
+  - first:
+      213: 5354187097840565368
+    second: Island_map_7
+  - first:
+      213: -7877436330880917227
+    second: Island_map_8
+  - first:
+      213: -9037785863249276178
+    second: Island_map_9
+  - first:
+      213: -1925943471378211964
+    second: Island_map_10
+  - first:
+      213: -202991627793204056
+    second: Island_map_11
+  - first:
+      213: -4626124388693257032
+    second: Island_map_12
+  - first:
+      213: -6019315734070869932
+    second: Island_map_13
+  - first:
+      213: -1780390700696395710
+    second: Island_map_14
+  - first:
+      213: 4728477150990091674
+    second: Island_map_15
+  - first:
+      213: -5432908007909718255
+    second: Island_map_16
+  - first:
+      213: 553918218217774853
+    second: Island_map_17
+  - first:
+      213: -1263901627837152724
+    second: Island_map_18
+  - first:
+      213: 5913952299169044378
+    second: Island_map_19
+  - first:
+      213: -2869381435570136223
+    second: Island_map_20
+  - first:
+      213: -2428910825568287914
+    second: Island_map_21
+  - first:
+      213: 2002088262377518444
+    second: Island_map_22
+  - first:
+      213: 4699050255465230914
+    second: Island_map_23
+  - first:
+      213: 8684832182979577380
+    second: Island_map_24
+  - first:
+      213: -4156738495765716964
+    second: Island_map_25
+  - first:
+      213: -4592798312183950161
+    second: Island_map_26
+  - first:
+      213: -6495601105043767525
+    second: Island_map_27
+  - first:
+      213: -2816537853606482424
+    second: Island_map_28
+  - first:
+      213: -3348635711565734264
+    second: Island_map_29
+  - first:
+      213: 1646761214512753613
+    second: Island_map_30
+  - first:
+      213: -8427256955763758158
+    second: Island_map_31
+  - first:
+      213: 3009889592392975441
+    second: Island_map_32
+  - first:
+      213: 5088434828280797758
+    second: Island_map_33
+  - first:
+      213: 6531555165372696243
+    second: Island_map_34
+  - first:
+      213: -253977363823334295
+    second: Island_map_35
+  - first:
+      213: 2248194809276926076
+    second: Island_map_36
+  - first:
+      213: -2315470984796855216
+    second: Island_map_37
+  - first:
+      213: 9169613782477330292
+    second: Island_map_38
+  - first:
+      213: 5509930400006086030
+    second: Island_map_39
+  - first:
+      213: 5598413033816005295
+    second: Island_map_40
+  - first:
+      213: -2531794520959141150
+    second: Island_map_41
+  - first:
+      213: 3968718476592981909
+    second: Island_map_42
+  - first:
+      213: -6220559325271483507
+    second: Island_map_43
+  - first:
+      213: -7909606692312410920
+    second: Island_map_44
+  - first:
+      213: -5793497219187786024
+    second: Island_map_45
+  - first:
+      213: -933456709488381859
+    second: Island_map_46
+  - first:
+      213: 1110001840982488645
+    second: Island_map_47
+  - first:
+      213: 8522142430626913772
+    second: Island_map_48
+  - first:
+      213: -6217281201881129572
+    second: Island_map_49
+  - first:
+      213: -7298882913595693990
+    second: Island_map_50
+  - first:
+      213: 6084287755473773122
+    second: Island_map_51
+  - first:
+      213: -6371109249296613471
+    second: Island_map_52
+  - first:
+      213: -1737104611156838049
+    second: Island_map_53
+  - first:
+      213: -5524185293624319077
+    second: Island_map_54
+  - first:
+      213: -8267290507127018058
+    second: Island_map_55
+  - first:
+      213: 577033553575322496
+    second: Island_map_56
+  - first:
+      213: -9126877448046938125
+    second: Island_map_57
+  - first:
+      213: 5870735561228215173
+    second: Island_map_58
+  - first:
+      213: -8132968331602670623
+    second: Island_map_59
+  - first:
+      213: 6024320230551916989
+    second: Island_map_60
+  - first:
+      213: -2795216074472190197
+    second: Island_map_61
+  - first:
+      213: 8441937683041660450
+    second: Island_map_62
+  - first:
+      213: -3550630284202796996
+    second: Island_map_63
+  - first:
+      213: -4172591164241883754
+    second: Island_map_64
+  - first:
+      213: 2894271504247945853
+    second: Island_map_65
+  - first:
+      213: 4226179802643228205
+    second: Island_map_66
+  - first:
+      213: -688318032266102441
+    second: Island_map_67
+  - first:
+      213: -3384550223015964456
+    second: Island_map_68
+  - first:
+      213: 4715293188695704580
+    second: Island_map_69
+  - first:
+      213: 4239046905564753445
+    second: Island_map_70
+  - first:
+      213: -2782898558490707846
+    second: Island_map_71
+  - first:
+      213: -7884543293438442310
+    second: Island_map_72
+  - first:
+      213: 2316205571812679174
+    second: Island_map_73
+  - first:
+      213: 5523325054442931124
+    second: Island_map_74
+  - first:
+      213: -7086378986636046377
+    second: Island_map_75
+  - first:
+      213: 8577657444561879155
+    second: Island_map_76
+  - first:
+      213: 2118028298185480639
+    second: Island_map_77
+  - first:
+      213: -779446528985904178
+    second: Island_map_78
+  - first:
+      213: 3959894821540303171
+    second: Island_map_79
+  - first:
+      213: 4924272207835634341
+    second: Island_map_80
+  - first:
+      213: -5070944432066739857
+    second: Island_map_81
+  - first:
+      213: -6718076266303862804
+    second: Island_map_82
+  - first:
+      213: 7079037067178722498
+    second: Island_map_83
+  - first:
+      213: 4365185417315571582
+    second: Island_map_84
+  - first:
+      213: -1260549623581427113
+    second: Island_map_85
+  - first:
+      213: -32363455475312295
+    second: Island_map_86
+  - first:
+      213: -1598057113539586703
+    second: Island_map_87
+  - first:
+      213: 2768056551946972870
+    second: Island_map_88
+  - first:
+      213: -8463728274754526753
+    second: Island_map_89
+  - first:
+      213: 459679917905539553
+    second: Island_map_90
+  - first:
+      213: 2090080531911081578
+    second: Island_map_91
+  - first:
+      213: 4674522815328149084
+    second: Island_map_92
+  - first:
+      213: -7574841868342288051
+    second: Island_map_93
+  - first:
+      213: -6382948644723682546
+    second: Island_map_94
+  - first:
+      213: 8675957920515983719
+    second: Island_map_95
+  - first:
+      213: -2972237658681471600
+    second: Island_map_96
+  - first:
+      213: -2296321032621111893
+    second: Island_map_97
+  - first:
+      213: -5397476311689802343
+    second: Island_map_98
+  - first:
+      213: -148529725917502667
+    second: Island_map_99
+  - first:
+      213: -6064257635021327523
+    second: Island_map_100
+  - first:
+      213: 7530871360060656865
+    second: Island_map_101
+  - first:
+      213: 3571690084266253982
+    second: Island_map_102
+  - first:
+      213: 6544373658790902037
+    second: Island_map_103
+  - first:
+      213: -3205304621663308740
+    second: Island_map_104
+  - first:
+      213: 7208542771336056459
+    second: Island_map_105
+  - first:
+      213: -818870866864297314
+    second: Island_map_106
+  - first:
+      213: -8816245813595319582
+    second: Island_map_107
+  - first:
+      213: -6571092771122702704
+    second: Island_map_108
+  - first:
+      213: 569552490913612215
+    second: Island_map_109
+  - first:
+      213: 6571614881256656455
+    second: Island_map_110
+  - first:
+      213: -6382653399945493111
+    second: Island_map_111
+  - first:
+      213: 7264902596852914383
+    second: Island_map_112
+  - first:
+      213: -3112096566030426717
+    second: Island_map_113
+  - first:
+      213: 427624514536891366
+    second: Island_map_114
+  - first:
+      213: 2812896628988787678
+    second: Island_map_115
+  - first:
+      213: -2618830453445247239
+    second: Island_map_116
+  - first:
+      213: 1298030415417187451
+    second: Island_map_117
+  - first:
+      213: -778358395881909321
+    second: Island_map_118
+  - first:
+      213: 7400293721761133015
+    second: Island_map_119
+  - first:
+      213: 2741394076922481448
+    second: Island_map_120
+  - first:
+      213: -2832563912732261714
+    second: Island_map_121
+  - first:
+      213: 9131134794161780563
+    second: Island_map_122
+  - first:
+      213: -6632348805982880210
+    second: Island_map_123
+  - first:
+      213: 4398051697673049533
+    second: Island_map_124
+  - first:
+      213: -7841294840194884918
+    second: Island_map_125
+  - first:
+      213: -7869664822800311262
+    second: Island_map_126
+  - first:
+      213: -1028825424479373713
+    second: Island_map_127
+  - first:
+      213: 6433969176920990003
+    second: Island_map_128
+  - first:
+      213: -7315424585049049409
+    second: Island_map_129
+  - first:
+      213: -358083182037727673
+    second: Island_map_130
+  - first:
+      213: -5942797933421660890
+    second: Island_map_131
+  - first:
+      213: -6087369532620020874
+    second: Island_map_132
+  - first:
+      213: -8119044802870725633
+    second: Island_map_133
+  - first:
+      213: 479077977567653874
+    second: Island_map_134
+  - first:
+      213: -208827424873936110
+    second: Island_map_135
+  - first:
+      213: -8075830035460950314
+    second: Island_map_136
+  - first:
+      213: 1952454870911921162
+    second: Island_map_137
+  - first:
+      213: 1010944062728386043
+    second: Island_map_138
+  - first:
+      213: 1364981213226948476
+    second: Island_map_139
+  - first:
+      213: -7251339468018534368
+    second: Island_map_140
+  - first:
+      213: -1687089379692169844
+    second: Island_map_141
+  - first:
+      213: 6735570695139623713
+    second: Island_map_142
+  - first:
+      213: 6250644153095025520
+    second: Island_map_143
+  - first:
+      213: 8062717755492665130
+    second: Island_map_144
+  - first:
+      213: 4043046313108789930
+    second: Island_map_145
+  - first:
+      213: -4110680893880900812
+    second: Island_map_146
+  - first:
+      213: -3483666558509322378
+    second: Island_map_147
+  - first:
+      213: -2049700029619969743
+    second: Island_map_148
+  - first:
+      213: 4511473830943877473
+    second: Island_map_149
+  - first:
+      213: -6820639398681422663
+    second: Island_map_150
+  - first:
+      213: -5561877366093000857
+    second: Island_map_151
+  - first:
+      213: -4320041101842718841
+    second: Island_map_152
+  - first:
+      213: -8351348068087141362
+    second: Island_map_153
+  - first:
+      213: -6463894502430590156
+    second: Island_map_154
+  - first:
+      213: 5028134039152764352
+    second: Island_map_155
+  - first:
+      213: -8823556123463149443
+    second: Island_map_156
+  - first:
+      213: -2103718274648871900
+    second: Island_map_157
+  - first:
+      213: -299541448814262539
+    second: Island_map_158
+  - first:
+      213: -3650957377894504114
+    second: Island_map_159
+  - first:
+      213: -4818833786715742491
+    second: Island_map_160
+  - first:
+      213: -7912433731741576519
+    second: Island_map_161
+  - first:
+      213: -18279105191401275
+    second: Island_map_162
+  - first:
+      213: 4508131424282197858
+    second: Island_map_163
+  - first:
+      213: -1331097264141692023
+    second: Island_map_164
+  - first:
+      213: 8652212264082473068
+    second: Island_map_165
+  - first:
+      213: -8753611309333650434
+    second: Island_map_166
+  - first:
+      213: 7277629458790337585
+    second: Island_map_167
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Island_map_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257164833eef95660800000000000000
+      internalID: 7375206116651046738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6480d75d617db8fa0800000000000000
+      internalID: -5797303602238388154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f962521837d82f00800000000000000
+      internalID: 1092359545462876656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d243a1f07c67640800000000000000
+      internalID: 5077464497584876802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2229c70a97772f0800000000000000
+      internalID: -975177064110742876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b198fef2c62dc460800000000000000
+      internalID: 7263504392961692084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d49e5ef771b910800000000000000
+      internalID: 1851392856218194469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c34cb3cc4ed4a40800000000000000
+      internalID: 5354187097840565368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_8
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511261db469bda290800000000000000
+      internalID: -7877436330880917227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_9
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2daf044a5539280800000000000000
+      internalID: -9037785863249276178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bd40bed9ca545e0800000000000000
+      internalID: -1925943471378211964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_11
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acf105a034de2df0800000000000000
+      internalID: -202991627793204056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_12
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4da25f064bccfb0800000000000000
+      internalID: -4626124388693257032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_13
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45049c74b38177ca0800000000000000
+      internalID: -6019315734070869932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24025933718ca47e0800000000000000
+      internalID: -1780390700696395710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95c0519aecee9140800000000000000
+      internalID: 4728477150990091674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1178a2b93fe6a94b0800000000000000
+      internalID: -5432908007909718255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fdc774fa9efa700800000000000000
+      internalID: 553918218217774853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c228ab97a28b57ee0800000000000000
+      internalID: -1263901627837152724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97539a5844921250800000000000000
+      internalID: 5913952299169044378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bddb779c8ed28d0800000000000000
+      internalID: -2869381435570136223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653c6ea1976ca4ed0800000000000000
+      internalID: -2428910825568287914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_22
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65bdf7caa8d8cb10800000000000000
+      internalID: 2002088262377518444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_23
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242b6ba8f41663140800000000000000
+      internalID: 4699050255465230914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_24
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426c0603bd8b68870800000000000000
+      internalID: 8684832182979577380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_25
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1061b78c5c4056c0800000000000000
+      internalID: -4156738495765716964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_26
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4134dc44a1340c0800000000000000
+      internalID: -4592798312183950161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_27
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f3b3bc53dfad5a0800000000000000
+      internalID: -6495601105043767525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e285baeb5a9e8d0800000000000000
+      internalID: -2816537853606482424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88edfe9ef814781d0800000000000000
+      internalID: -3348635711565734264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_30
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb6ce489987ad610800000000000000
+      internalID: 1646761214512753613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_31
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe2c0c27e5c0b80800000000000000
+      internalID: -8427256955763758158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_32
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1548abf13a645c920800000000000000
+      internalID: 3009889592392975441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_33
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a17624480cd9640800000000000000
+      internalID: 5088434828280797758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_34
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b648e631deb4aa50800000000000000
+      internalID: 6531555165372696243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ce158eee0b97cf0800000000000000
+      internalID: -253977363823334295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_36
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7804d08441333f10800000000000000
+      internalID: 2248194809276926076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_37
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054a57f386bcddfd0800000000000000
+      internalID: -2315470984796855216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_38
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47756180723014f70800000000000000
+      internalID: 9169613782477330292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_39
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d1d758184377c40800000000000000
+      internalID: 5509930400006086030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_40
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa158a1efe81bd40800000000000000
+      internalID: 5598413033816005295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_41
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea33f51c424ddcd0800000000000000
+      internalID: -2531794520959141150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597aad26d68b31730800000000000000
+      internalID: 3968718476592981909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b13f860422ca9a0800000000000000
+      internalID: -6220559325271483507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_44
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d49aa7ce9e6b3290800000000000000
+      internalID: -7909606692312410920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de391379fc599fa0800000000000000
+      internalID: -5793497219187786024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_46
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d507db18112bb03f0800000000000000
+      internalID: -933456709488381859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_47
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5467ac71bc4876f00800000000000000
+      internalID: 1110001840982488645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_48
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced1dce636bb44670800000000000000
+      internalID: 8522142430626913772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d592dffa7c7b9a0800000000000000
+      internalID: -6217281201881129572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_50
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54e5f549a825ba90800000000000000
+      internalID: -7298882913595693990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_51
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242e5484a7bbf6450800000000000000
+      internalID: 6084287755473773122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_52
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af3872b4e54597a0800000000000000
+      internalID: -6371109249296613471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_53
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59bd4a4f8094e7e0800000000000000
+      internalID: -1737104611156838049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_54
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93e51c6eb62653b0800000000000000
+      internalID: -5524185293624319077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_55
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd2cb3f51fa44d80800000000000000
+      internalID: -8267290507127018058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083a650b5f8020800800000000000000
+      internalID: 577033553575322496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_57
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f773a83151d65180800000000000000
+      internalID: -9126877448046938125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_58
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583e24173ea097150800000000000000
+      internalID: 5870735561228215173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_59
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb42598464e12f80800000000000000
+      internalID: -8132968331602670623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_60
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db11f3bd45faa9350800000000000000
+      internalID: 6024320230551916989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_61
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f8f9a3ac56539d0800000000000000
+      internalID: -2795216074472190197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_62
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eaead6899c72570800000000000000
+      internalID: 8441937683041660450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38195d8190a9bec0800000000000000
+      internalID: -3550630284202796996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_64
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dcd66817af716c0800000000000000
+      internalID: -4172591164241883754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_65
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7afb3e39948a2820800000000000000
+      internalID: 2894271504247945853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_66
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26ea75a32866aa30800000000000000
+      internalID: 4226179802643228205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_67
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7597842856a9276f0800000000000000
+      internalID: -688318032266102441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_68
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d01aa81189a701d0800000000000000
+      internalID: -3384550223015964456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_69
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404c6042c26107140800000000000000
+      internalID: 4715293188695704580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ee76083be14da30800000000000000
+      internalID: 4239046905564753445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_71
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78f63761882169d0800000000000000
+      internalID: -2782898558490707846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_72
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4c96216a9749290800000000000000
+      internalID: -7884543293438442310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_73
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60edcae12b0d42020800000000000000
+      internalID: 2316205571812679174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_74
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b306198fdac6ac40800000000000000
+      internalID: 5523325054442931124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_75
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df04cd5bdf18ad90800000000000000
+      internalID: -7086378986636046377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_76
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370881cdff5f90770800000000000000
+      internalID: 8577657444561879155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_77
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb91291f38fb46d10800000000000000
+      internalID: 2118028298185480639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_78
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb4266f289de25f0800000000000000
+      internalID: -779446528985904178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_79
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34191d91c5f54f630800000000000000
+      internalID: 3959894821540303171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_80
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa1f5dab77865440800000000000000
+      internalID: 4924272207835634341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_81
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61cae2f7e260a9b0800000000000000
+      internalID: -5070944432066739857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_82
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c9fcca3994c2a0800000000000000
+      internalID: -6718076266303862804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_83
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4c20dc4bacd3260800000000000000
+      internalID: 7079037067178722498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_84
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e775fc16201449c30800000000000000
+      internalID: 4365185417315571582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_85
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a3da8cbc0a18ee0800000000000000
+      internalID: -1260549623581427113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_86
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95990b4db950d8ff0800000000000000
+      internalID: -32363455475312295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_87
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175dfa8a58f82d9e0800000000000000
+      internalID: -1598057113539586703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_88
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceedf8a4cc1a6620800000000000000
+      internalID: 2768056551946972870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_89
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1a3d31afbca8a80800000000000000
+      internalID: -8463728274754526753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_90
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1f329237c116600800000000000000
+      internalID: 459679917905539553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_91
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ef4888b25710d10800000000000000
+      internalID: 2090080531911081578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_92
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ed71edbbd3fd040800000000000000
+      internalID: 4674522815328149084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_93
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41a3b73471c0e690800000000000000
+      internalID: -7574841868342288051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_94
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e031fa3a6063b67a0800000000000000
+      internalID: -6382948644723682546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_95
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7698792f2c1376870800000000000000
+      internalID: 8675957920515983719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_96
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d8046d89d70c6d0800000000000000
+      internalID: -2972237658681471600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_97
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba54c50ff24d120e0800000000000000
+      internalID: -2296321032621111893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_98
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99dc42e34ef4815b0800000000000000
+      internalID: -5397476311689802343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_99
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533e910500150fdf0800000000000000
+      internalID: -148529725917502667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_100
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d537a1e8fcd67dba0800000000000000
+      internalID: -6064257635021327523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_101
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec04990a97038860800000000000000
+      internalID: 7530871360060656865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_102
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e99704531319130800000000000000
+      internalID: 3571690084266253982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_103
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519b7a94b2942da50800000000000000
+      internalID: 6544373658790902037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_104
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3437d4dd687483d0800000000000000
+      internalID: -3205304621663308740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_105
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e02b14573e90460800000000000000
+      internalID: 7208542771336056459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_106
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a23aff849c2a4f0800000000000000
+      internalID: -818870866864297314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_107
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2502c942766a580800000000000000
+      internalID: -8816245813595319582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_108
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096181790f9cec4a0800000000000000
+      internalID: -6571092771122702704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_109
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b148dd09f477e700800000000000000
+      internalID: 569552490913612215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_110
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e49f5aae0133b50800000000000000
+      internalID: 6571614881256656455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_111
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9854fcbac824c67a0800000000000000
+      internalID: -6382653399945493111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_112
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc81b35bb6e12d460800000000000000
+      internalID: 7264902596852914383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_113
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad1b0b69ac9fc4d0800000000000000
+      internalID: -3112096566030426717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_114
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e36836fa3a3fe500800000000000000
+      internalID: 427624514536891366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_115
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb35c8a49a690720800000000000000
+      internalID: 2812896628988787678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_116
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9febb67e39b08abd0800000000000000
+      internalID: -2618830453445247239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_117
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c189a19c7830210800000000000000
+      internalID: 1298030415417187451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_118
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b31481b927b235f0800000000000000
+      internalID: -778358395881909321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_119
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d130277eef13b660800000000000000
+      internalID: 7400293721761133015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_120
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b035073636b0620800000000000000
+      internalID: 2741394076922481448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_121
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2c0020126b0b8d0800000000000000
+      internalID: -2832563912732261714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_122
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357f83a67be48be70800000000000000
+      internalID: 9131134794161780563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_123
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e77e096e925f3a0800000000000000
+      internalID: -6632348805982880210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_124
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db51b9797b4090d30800000000000000
+      internalID: 4398051697673049533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_125
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca941743ef1e2390800000000000000
+      internalID: -7841294840194884918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_126
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c9997f98559c290800000000000000
+      internalID: -7869664822800311262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_127
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6634063ab0e8b1f0800000000000000
+      internalID: -1028825424479373713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_128
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3312036b0ec0a4950800000000000000
+      internalID: 6433969176920990003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_129
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6fdf249146a7a90800000000000000
+      internalID: -7315424585049049409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_130
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746899e3e35d70bf0800000000000000
+      internalID: -358083182037727673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_131
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625f97e04c0f68da0800000000000000
+      internalID: -5942797933421660890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_132
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673e5af89a1558ba0800000000000000
+      internalID: -6087369532620020874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_133
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b861b4cb535f80800000000000000
+      internalID: -8119044802870725633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_134
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffe1a0e1e606a600800000000000000
+      internalID: 479077977567653874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_135
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b870140981a1df0800000000000000
+      internalID: -208827424873936110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_136
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d67bedce53ecef80800000000000000
+      internalID: -8075830035460950314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_137
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cafac4c53881b10800000000000000
+      internalID: 1952454870911921162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_138
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf537b2d448970e00800000000000000
+      internalID: 1010944062728386043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_139
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7759737e2361f210800000000000000
+      internalID: 1364981213226948476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_140
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283cfe4c211e5b90800000000000000
+      internalID: -7251339468018534368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_141
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853d13d5214698e0800000000000000
+      internalID: -1687089379692169844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_142
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12304535cdd897d50800000000000000
+      internalID: 6735570695139623713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_143
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f99a6dbfbeb650800000000000000
+      internalID: 6250644153095025520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_144
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27006c941784ef60800000000000000
+      internalID: 8062717755492665130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_145
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa5d476339cb1830800000000000000
+      internalID: 4043046313108789930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_146
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4336e3f918de3f6c0800000000000000
+      internalID: -4110680893880900812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_147
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fe428e8b787afc0800000000000000
+      internalID: -3483666558509322378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_148
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131e46ecea00e83e0800000000000000
+      internalID: -2049700029619969743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_149
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16961e2eb89fb9e30800000000000000
+      internalID: 4511473830943877473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_150
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b45f8caa983851a0800000000000000
+      internalID: -6820639398681422663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_151
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fcdbde00e30d2b0800000000000000
+      internalID: -5561877366093000857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_152
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fd395a1812c04c0800000000000000
+      internalID: -4320041101842718841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_153
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c650eed2d0a1c80800000000000000
+      internalID: -8351348068087141362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_154
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b360d7232ab46a0800000000000000
+      internalID: -6463894502430590156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_155
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c520c6b44587c540800000000000000
+      internalID: 5028134039152764352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_156
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d789145747e6c8580800000000000000
+      internalID: -8823556123463149443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_157
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c6e0c00671ec2e0800000000000000
+      internalID: -2103718274648871900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_158
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f68beba3a0d7dbf0800000000000000
+      internalID: -299541448814262539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_159
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49a180cb91355dc0800000000000000
+      internalID: -3650957377894504114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_160
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee5827c330102db0800000000000000
+      internalID: -4818833786715742491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_161
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b299be5173613290800000000000000
+      internalID: -7912433731741576519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_162
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8214c204f0fbff0800000000000000
+      internalID: -18279105191401275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_163
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fbd1135a9109e30800000000000000
+      internalID: 4508131424282197858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_164
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9831759371ef68de0800000000000000
+      internalID: -1331097264141692023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_165
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c600ae97635d21870800000000000000
+      internalID: 8652212264082473068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_166
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3635d84ece48680800000000000000
+      internalID: -8753611309333650434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_map_167
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ccd1a2f655ff460800000000000000
+      internalID: 7277629458790337585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
