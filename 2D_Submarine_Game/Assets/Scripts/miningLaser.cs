@@ -10,7 +10,7 @@ public class miningLaser : MonoBehaviour
     Transform m_transform;
     public int mySortingLayer; //sorts when to draw line on top of sprites
     public GameObject laserParticle;//laser effect for end of laser
-
+    public GameObject laserParent;
 
     private void Awake()
     {
@@ -19,7 +19,7 @@ public class miningLaser : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))//press space to mine
         {
             m_lineRenderer.enabled = true;
             ShootLaser();
@@ -28,6 +28,8 @@ public class miningLaser : MonoBehaviour
         {
             m_lineRenderer.enabled = false;//turns off laser if space is not held
         }
+
+        gunRotation();//rotates the laser
     }
 
 
@@ -48,7 +50,8 @@ public class miningLaser : MonoBehaviour
             drawLaser(laserFirePoint.position,laserFirePoint.transform.right * defDistanceRay);
         }
     }
-
+    
+    //function to draw mining laser
     void drawLaser(Vector2 startPos, Vector2 endPos )
     {
         m_lineRenderer.SetPosition(0, startPos);
@@ -58,5 +61,19 @@ public class miningLaser : MonoBehaviour
 
     }
 
+    //rotate direction of gun toward mouse
+    void gunRotation()
+    {
+        Vector3 mousePos = Input.mousePosition; //get position of mouse
+        mousePos.z = 10;
+        mousePos = Camera.main.ScreenToWorldPoint(mousePos); //converts mouse position
+
+
+        if (mousePos.y < -1 && mousePos.x > 0)//limits the rotation to the bottom of the submarine
+        {
+            Vector2 direc = new Vector2(mousePos.x - transform.position.x, mousePos.y - transform.position.y);
+            laserParent.transform.right = direc; //moves gun towards mouse
+        }
+    }    
 
 }
