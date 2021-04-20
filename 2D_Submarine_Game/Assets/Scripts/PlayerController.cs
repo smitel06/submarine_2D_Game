@@ -11,12 +11,16 @@ public class PlayerController : MonoBehaviour
     public float fuelUsed;
     public float maxFuel;
     public float currentResources;
+    bool facingLeft = false;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         fuel = maxFuel;
         currentResources = 0;
+        //get scale so we can flip player
+        
     }
 
     // Update is called once per frame
@@ -37,11 +41,25 @@ public class PlayerController : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))//move right
             {
+                if (facingLeft)//turns sprite to the right
+                {
+                    Vector3 theScale = transform.localScale;
+                    theScale.x *= -1;
+                    transform.localScale = theScale;
+                    facingLeft = false;
+                }
                 GetComponent<Rigidbody2D>().AddForce(transform.right * Time.deltaTime * movementSpeed);
                 fuel = fuel - fuelUsed;
             }
             else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))//move left
             {
+                if (facingLeft == false)
+                {
+                    Vector3 theScale = transform.localScale;
+                    theScale.x *= -1;
+                    transform.localScale = theScale;
+                    facingLeft = true;
+                }
                 GetComponent<Rigidbody2D>().AddForce(transform.right * Time.deltaTime * movementSpeed * -1);
                 fuel = fuel - fuelUsed;
             }

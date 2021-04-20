@@ -67,13 +67,11 @@ public class miningLaser : MonoBehaviour
         Vector3 mousePos = Input.mousePosition; //get position of mouse
         mousePos.z = 10;
         mousePos = Camera.main.ScreenToWorldPoint(mousePos); //converts mouse position
-
-
-        if (mousePos.y < -1 && mousePos.x > 0)//limits the rotation to the bottom of the submarine
-        {
-            Vector2 direc = new Vector2(mousePos.x - transform.position.x, mousePos.y - transform.position.y);
-            laserParent.transform.right = direc; //moves gun towards mouse
-        }
+        
+        //points towards mouse
+        Vector2 direc = new Vector2(mousePos.x - transform.position.x, mousePos.y - transform.position.y);
+        laserParent.transform.right = direc; //moves gun towards mouse
+        
     }    
 
 }
