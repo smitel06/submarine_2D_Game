@@ -6,11 +6,15 @@ public class MiningStone : MonoBehaviour
 {
     public float targetScale;
     public float shrinkSpeed;
-    public float rockHP;
+    float rockHP;
     public GameObject thisRock;
     public GameObject player;
     public float addResources;
- 
+
+    private void Start()
+    {
+        rockHP = 250;
+    }
     //if hit by ray shrink object then destroy
     void HitByLaser()
     {
