@@ -41,6 +41,9 @@ public class miningLaser : MonoBehaviour
     //shoot laser function
     void ShootLaser()
     {
+        //uses fuel for laser
+        GetComponentInParent<PlayerController>().fuel--;
+
         if(Physics2D.Raycast(m_transform.position, mousePos))
         {
             //check for raycast hit
