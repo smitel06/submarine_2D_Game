@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\miningLaser.cs" />
     <Compile Include="Assets\Scripts\resources_display.cs" />
+    <Compile Include="Assets\Scripts\shark.cs" />
     <Compile Include="Assets\Scripts\tilescript.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/programs/Unity/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -254,6 +255,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>D:/programs/Unity/2019.4.20f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>C:/Users/Eliah/Desktop/Repos/submarine_2D_Game/2D_Submarine_Game/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/programs/Unity/2019.4.20f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -682,7 +686,20 @@
       <HintPath>C:/Users/Eliah/Desktop/Repos/submarine_2D_Game/2D_Submarine_Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{3DA0338A-7793-ECBB-05EE-C9C8F82B014C}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{A87CD3FE-98CE-C520-63CB-5A62E3EE928E}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{14DC00E5-6956-2E4D-21EC-98928B9FCA35}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
