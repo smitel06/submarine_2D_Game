@@ -14,14 +14,14 @@ public class shark : MonoBehaviour
         //flip the shark if its going left
         if (aiPath.desiredVelocity.x >= 0.01f)
         {
-            transform.localScale = new Vector3(0.5f, 0.5f, 1);
+            transform.localScale = new Vector3(0.35f, 0.35f, 1);
         }
         else if (aiPath.desiredVelocity.x <= -0.01f)
         {
-            transform.localScale = new Vector3(-0.5f, 0.5f, 1);
+            transform.localScale = new Vector3(-0.35f, 0.35f, 1);
         }
 
-        //rotate the sharkf
+        
 
     }
 }

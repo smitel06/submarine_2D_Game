@@ -50,24 +50,16 @@ public class miningLaser : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(laserFirePoint.position, transform.right);
             if (hit)
             {
-                if (hit.distance >= Vector2.Distance(laserFirePoint.position, mousePos))
-                {
-                    //if the hit is further then the mouse position shoot laser to mouse position
-                    drawLaser(laserFirePoint.position, mousePos);
-                }
-                else
-                {
-                    //else draw laser to hit point
-                    hit.transform.SendMessage("HitByLaser", hit);
-                    drawLaser(laserFirePoint.position, hit.point);
-                }
-
+                //draw laser to hit point
+                hit.transform.SendMessage("HitByLaser", hit);
+                drawLaser(laserFirePoint.position, hit.point);
+              
             }
         }
         //if there is no hit still draw laser
         else
         {
-            drawLaser(laserFirePoint.position, mousePos);
+            drawLaser(laserFirePoint.position, laserFirePoint.transform.right * 50f);
         }
     }
     
