@@ -12,7 +12,9 @@ public class PlayerController : MonoBehaviour
     public float maxFuel;
     public float currentResources;
     bool facingLeft = false;
-    
+    //stuff for shark
+    public float distanceToShark;
+    public GameObject enemy;
 
     // Start is called before the first frame update
     void Start()
@@ -65,6 +67,12 @@ public class PlayerController : MonoBehaviour
             }
         }
         
+        //calculate distance to player if below 1.99float thats a hit
+        distanceToShark = Vector2.Distance(enemy.transform.position, this.transform.position);
+            if(distanceToShark< 1.8)
+            {
+                Debug.Log("hit!");
+            }
     }
         public void addToResources(float addValue)
     {

@@ -68,7 +68,7 @@ public class miningLaser : MonoBehaviour
     {
         m_lineRenderer.SetPosition(0, startPos);
         m_lineRenderer.SetPosition(1, endPos);
-        m_lineRenderer.SetWidth(0.10f, 0.12f);
+        m_lineRenderer.SetWidth(0.08f/2, 0.08f/2);
         Instantiate(laserParticle, endPos, Quaternion.identity);
 
     }
