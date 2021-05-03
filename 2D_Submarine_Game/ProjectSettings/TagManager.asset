@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Laser
+  - miningRocks
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - Player
   - Obstacle
   - destructables
-  - 
-  - 
+  - miningRocks
+  - shark
   - 
   - 
   - 

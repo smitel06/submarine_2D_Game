@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public float fuelUsed;
     public float maxFuel;
     public float currentResources;
+    public float armour;
     bool facingLeft = false;
     //stuff for shark
     public float distanceToShark;
@@ -22,12 +23,17 @@ public class PlayerController : MonoBehaviour
         fuel = maxFuel;
         currentResources = 0;
         //get scale so we can flip player
-        
+        armour = 300f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        //If armour = 0 you die
+        if(armour == 0)
+        {
+            Debug.Log("GameOver");
+        }
         if (fuel > 0)
         {
             //controls for movement 
@@ -67,12 +73,7 @@ public class PlayerController : MonoBehaviour
             }
         }
         
-        //calculate distance to player if below 1.99float thats a hit
-        distanceToShark = Vector2.Distance(enemy.transform.position, this.transform.position);
-            if(distanceToShark< 1.8)
-            {
-                Debug.Log("hit!");
-            }
+      
     }
         public void addToResources(float addValue)
     {

@@ -5,25 +5,34 @@ using Pathfinding;
 
 public class shark : MonoBehaviour
 {
-    public float sharkHealth;
+    float sharkStartHealth;
+    float sharkHealth;
     SpriteRenderer m_spriteRender; //the sprite component
     public AIPath aiPath;
     Color defaultColor;
-    bool beingHit;
+    bool beingHitByLaser;
     float startMaxSpeed;
-    
-
-    
+    public float distanceToPlayer;
+    public GameObject player;
+    bool beforeHit;
+    public float attackSpeed;
+    public GameObject spawnPoint;
+    public float level;
 
     private void Start()
     {
+        //set health
+        sharkStartHealth = 1000;
+        sharkHealth = sharkStartHealth;
+        level = 1;
         //assign the renderer
         m_spriteRender = GetComponent<SpriteRenderer>();
         //store the starting colour of the shark
         defaultColor = m_spriteRender.color;   
         //store the current maxspeed of the shark at the start
         startMaxSpeed = this.GetComponent<AIPath>().maxSpeed;
-
+        //before hit tells us that shark has not hit player yet
+        beforeHit = true;
     }
 
     // Update is called once per frame
@@ -32,15 +41,20 @@ public class shark : MonoBehaviour
         //kill shark if health is 0
         if(sharkHealth == 0)
         {
-            Destroy(gameObject);
-        }
-        //if not being hit by laser
-        if(!beingHit)
-        {
-            //return speed to what it was
-            this.GetComponent<AIPath>().maxSpeed = startMaxSpeed;
-            //return color to default 
-            m_spriteRender.color = defaultColor;
+            //increase level, movement speed and health
+            level++;
+            //if level is over 5 level equals 5
+            if (level > 5)
+                level = 5;
+            //respawn 
+            this.gameObject.transform.position = spawnPoint.transform.position;
+            if(level > 1)
+            {
+                sharkHealth = sharkStartHealth * level;
+                this.GetComponent<AIPath>().maxSpeed = this.GetComponent<AIPath>().maxSpeed * level/0.4f;
+                startMaxSpeed = this.GetComponent<AIPath>().maxSpeed;
+                this.GetComponent<AIDestinationSetter>().changeTarget = false;
+            }
         }
 
         //flip the shark if its going left
@@ -53,19 +67,42 @@ public class shark : MonoBehaviour
             transform.localScale = new Vector3(-0.35f, 0.35f, 1);
         }
 
-        
+        //if distance between player and shark is below 10 
+        //shark attacks by increasing movement speed
+        distanceToPlayer = Vector2.Distance(player.transform.position, this.transform.position);
+        if(distanceToPlayer < 5 && beforeHit)
+        {
+            //changes movement speed
+            this.GetComponent<AIPath>().maxSpeed = startMaxSpeed * attackSpeed;
+        }
+        //if not being hit by laser
+        if(!beingHitByLaser)
+        {
+            //return color to default 
+            m_spriteRender.color = defaultColor;
+        }
+        //change target before next attack
+        if (distanceToPlayer < 5 && !beforeHit)
+        {
+            this.GetComponent<AIDestinationSetter>().changeTarget = true;
+        }
+        else
+        {
+            //change target back to player and make before hit true
+            this.GetComponent<AIDestinationSetter>().changeTarget = false;
+            beforeHit = true;
+        }
+        //after hit change back colour
+
     }
 
-    
-
-        
 
     //what happens when the shark is hit by the laser
+    //reduces health
     void HitByLaser()
     {
-        this.GetComponent<AIPath>().maxSpeed = startMaxSpeed/2;
         //set being hit to true
-        beingHit = true;
+        beingHitByLaser = true;
         //hurt the shark
         sharkHealth--;
         //set to red when hit by the laser
@@ -76,9 +113,28 @@ public class shark : MonoBehaviour
     private void LateUpdate()
     {
         //set hit by laser to false
-        beingHit = false;
+        beingHitByLaser = false;
+        //change player back to default color 
+        if (distanceToPlayer > 5)
+        {
+            player.GetComponent<SpriteRenderer>().color = defaultColor;
+        }
     }
 
-   
-    
+    //on collision with player 
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "Player")
+        {
+            //reduce armour of submarine
+            player.GetComponent<PlayerController>().armour -= 100;
+            //player turns red
+            player.GetComponent<SpriteRenderer>().color = Color.red;
+            //return shark back to original speed
+            this.GetComponent<AIPath>().maxSpeed = startMaxSpeed;
+            beforeHit = false;
+        }
+    }
+
+
 }

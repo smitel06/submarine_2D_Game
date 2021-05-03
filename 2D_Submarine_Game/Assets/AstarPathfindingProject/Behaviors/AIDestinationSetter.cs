@@ -18,7 +18,7 @@ namespace Pathfinding {
 		/// //change target depending on boolean isSafe
 		public Transform target;
 		public Transform target2;
-		public bool isSafe;
+		public bool changeTarget;
 		IAstarAI ai;
 
 		void OnEnable () {
@@ -37,9 +37,9 @@ namespace Pathfinding {
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update () {
 			//if target is not null and is not in safezone go to target
-			if (target != null && ai != null && isSafe == false) ai.destination = target.position;
+			if (target != null && ai != null && changeTarget == false) ai.destination = target.position;
 			//if player is in safe zone do not go to instead go to target 2
-			else if (target != null && ai != null && isSafe == true) ai.destination = target2.position;
+			else if (target != null && ai != null && changeTarget == true) ai.destination = target2.position;
 
 		}
 	}

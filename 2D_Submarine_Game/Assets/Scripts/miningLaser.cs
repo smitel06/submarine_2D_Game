@@ -51,9 +51,14 @@ public class miningLaser : MonoBehaviour
             if (hit)
             {
                 //draw laser to hit point
-                hit.transform.SendMessage("HitByLaser", hit);
                 drawLaser(laserFirePoint.position, hit.point);
-              
+                //check what was hit and if we can use send message
+                if (hit.collider.gameObject.name == "Enemy" || hit.collider.gameObject.tag == "miningRocks")
+                {
+                    hit.transform.SendMessage("HitByLaser", hit);
+                }
+
+
             }
         }
         //if there is no hit still draw laser
