@@ -8,6 +8,7 @@ public class shark : MonoBehaviour
     float sharkStartHealth;
     float sharkHealth;
     SpriteRenderer m_spriteRender; //the sprite component
+    //ai path
     public AIPath aiPath;
     Color defaultColor;
     bool beingHitByLaser;
@@ -18,12 +19,27 @@ public class shark : MonoBehaviour
     public float attackSpeed;
     public GameObject spawnPoint;
     public float level;
+    public GameObject safeZone;
+    public float safeDistance;
+    //timers
+    //timers
+    float attackTimer;
+    float timeCompare;
+    //safe distance
+    bool isPlayerSafe;
+
+
 
     private void Start()
     {
+        //player in safe asre
+        isPlayerSafe = true;
+
+        attackTimer = 3f; // 3 seconds between attacks
         //set health
         sharkStartHealth = 1000;
         sharkHealth = sharkStartHealth;
+        //starting values
         level = 1;
         //assign the renderer
         m_spriteRender = GetComponent<SpriteRenderer>();
@@ -44,14 +60,16 @@ public class shark : MonoBehaviour
             //increase level, movement speed and health
             level++;
             //if level is over 5 level equals 5
-            if (level > 5)
-                level = 5;
+            if (level > 10)
+                level = 10;
             //respawn 
             this.gameObject.transform.position = spawnPoint.transform.position;
             if(level > 1)
             {
                 sharkHealth = sharkStartHealth * level;
-                this.GetComponent<AIPath>().maxSpeed = this.GetComponent<AIPath>().maxSpeed * level/0.4f;
+                
+                //increase speed of shark by one each level
+                this.GetComponent<AIPath>().maxSpeed = this.GetComponent<AIPath>().maxSpeed ++;
                 startMaxSpeed = this.GetComponent<AIPath>().maxSpeed;
                 this.GetComponent<AIDestinationSetter>().changeTarget = false;
             }
@@ -82,17 +100,29 @@ public class shark : MonoBehaviour
             m_spriteRender.color = defaultColor;
         }
         //change target before next attack
-        if (distanceToPlayer < 5 && !beforeHit)
+        if (Time.time >= timeCompare && !beforeHit)
         {
-            this.GetComponent<AIDestinationSetter>().changeTarget = true;
-        }
-        else
-        {
-            //change target back to player and make before hit true
             this.GetComponent<AIDestinationSetter>().changeTarget = false;
             beforeHit = true;
         }
-        //after hit change back colour
+        
+
+
+        //determine if player is in safe zone
+        safeDistance = Vector2.Distance(player.transform.position, safeZone.transform.position);
+        //if they are change target
+        if (safeDistance < 7)
+        {
+            this.GetComponent<AIDestinationSetter>().changeTarget = true;
+            isPlayerSafe = true;
+        }
+        else if(safeDistance > 7 && isPlayerSafe == true)
+        {
+            isPlayerSafe = false;
+            this.GetComponent<AIDestinationSetter>().changeTarget = false;
+        }
+
+
 
     }
 
@@ -126,8 +156,13 @@ public class shark : MonoBehaviour
     {
         if(collision.gameObject.name == "Player")
         {
+            this.GetComponent<AIDestinationSetter>().changeTarget = true;
+
+            //set timer
+            timeCompare = attackTimer + Time.time;
+
             //reduce armour of submarine
-            player.GetComponent<PlayerController>().armour -= 100;
+            player.GetComponent<PlayerController>().armor -= 100;
             //player turns red
             player.GetComponent<SpriteRenderer>().color = Color.red;
             //return shark back to original speed

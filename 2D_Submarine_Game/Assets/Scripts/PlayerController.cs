@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     public float fuelUsed;
     public float maxFuel;
     public float currentResources;
-    public float armour;
+    public float armor;
+    public float maxArmor;
     bool facingLeft = false;
     //stuff for shark
     public float distanceToShark;
@@ -22,15 +23,17 @@ public class PlayerController : MonoBehaviour
     {
         fuel = maxFuel;
         currentResources = 0;
-        //get scale so we can flip player
-        armour = 300f;
+        
+        //set Armor
+        maxArmor = 300;
+        armor = maxArmor;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         //If armour = 0 you die
-        if(armour == 0)
+        if(armor == 0)
         {
             Debug.Log("GameOver");
         }

@@ -6,7 +6,7 @@ public class MiningStone : MonoBehaviour
 {
     public float targetScale;
     public float shrinkSpeed;
-    float rockHP;
+    public float rockHP;
     public GameObject thisRock;
     public GameObject player;
     public float addResources;
