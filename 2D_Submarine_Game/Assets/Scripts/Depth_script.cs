@@ -28,8 +28,8 @@ public class Depth_script : MonoBehaviour
         depthValueFloat = Vector2.Distance(playerPos, surfacePos);
         //convert from float to int for display purposes
         depthValue = (int)depthValueFloat;
-        //take away 1 so depth starts at 0
-        depthValue--;
+        
+        
         depth.text = "Depth " + depthValue * 10 + "M";
     }
 }

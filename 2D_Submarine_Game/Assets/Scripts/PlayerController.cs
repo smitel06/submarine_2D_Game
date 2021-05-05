@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject gameManager;
     //public variables to control speed
     public float movementSpeed;
     //fuel variable
@@ -35,6 +34,8 @@ public class PlayerController : MonoBehaviour
         //If armour = 0 you die
         if(armor == 0)
         {
+            string message = "The shark destroyed you!";
+            gameManager.SendMessage("GameOver", message);
             Debug.Log("GameOver");
         }
         if (fuel > 0)
@@ -74,6 +75,12 @@ public class PlayerController : MonoBehaviour
                 GetComponent<Rigidbody2D>().AddForce(transform.right * Time.deltaTime * movementSpeed * -1);
                 fuel = fuel - fuelUsed;
             }
+        }
+        else
+        {
+            string message = "Your fuel ran out!";
+            //gameover no fuel
+            gameManager.SendMessage("GameOver", message);
         }
         
       
