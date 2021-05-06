@@ -17,7 +17,7 @@ public class pauseGame : MonoBehaviour
     {
         //set up buttons
         
-Button resumeButton = resume.GetComponent<Button>();
+        Button resumeButton = resume.GetComponent<Button>();
         resumeButton.onClick.AddListener(resumeOnClick);
 
         Button restartButton = restart.GetComponent<Button>();

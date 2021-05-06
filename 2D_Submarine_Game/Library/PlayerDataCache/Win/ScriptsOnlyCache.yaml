@@ -9,6 +9,8 @@ ScriptsOnlyBuild:
     - StartMenu
     - armorSlider
     - gameOver
+    - gameWin
+    - how2play
     - miningLaser
     - pauseGame
     - resources_display
@@ -123,6 +125,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14702}
     - Class: 114
       Script: {instanceID: 14710}
+    - Class: 114
+      Script: {instanceID: 19806}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -188,6 +192,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13964}
     - Class: 114
       Script: {instanceID: 14644}
+    - Class: 114
+      Script: {instanceID: 204640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -261,7 +267,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 6fb0ad123115e1a9c572421877909c66
+      Hash: c73a191c9f6f4181056c1973bc86c211
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartMenu
@@ -973,6 +979,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 75031c261c6d628edbdff776a442965b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: gameWin
+  - hash:
+      serializedVersion: 2
+      Hash: 9d5a5fdc16ec364b1c06ace4b8b130e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: how2play
   platform: 5
   scenePathNames:
   - Assets/StartMenu.unity

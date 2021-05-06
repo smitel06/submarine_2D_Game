@@ -10,6 +10,10 @@ public class StartMenu : MonoBehaviour
     public Button startGame;
     public Button howToPlay;
     public Button exitGame;
+    public GameObject howToPlayScreen;
+    public GameObject menuScreen;
+    //set up return button
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +44,8 @@ public class StartMenu : MonoBehaviour
 
     void HowToPlayOnClick()
     {
-
+        howToPlayScreen.SetActive(true);
+        menuScreen.SetActive(false);
     }
 
     void exitOnClick()

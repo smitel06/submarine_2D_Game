@@ -72,6 +72,8 @@
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\armorSlider.cs" />
     <Compile Include="Assets\Scripts\gameOver.cs" />
+    <Compile Include="Assets\Scripts\gameWin.cs" />
+    <Compile Include="Assets\Scripts\how2play.cs" />
     <Compile Include="Assets\Scripts\miningLaser.cs" />
     <Compile Include="Assets\Scripts\pauseGame.cs" />
     <Compile Include="Assets\Scripts\resources_display.cs" />
