@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class miningLaser : MonoBehaviour
 {
-    
+    //sound
+    public AudioSource laserBeam;
+    //transforms
     public Transform laserFirePoint; //starting point of lazer
     public LineRenderer m_lineRenderer; //line renderer reference
     Transform m_transform;
     public int mySortingLayer; //sorts when to draw line on top of sprites
     public GameObject laserParticle;//laser effect for end of laser
     public GameObject laserParent;
+    //blood effect for shark
+    public GameObject bloodSplatter;
+    bool hitEnemy;
     Vector3 mousePos; //get position of mouse
+    //bool for sound
+    bool soundPlaying;
 
     private void Awake()
     {
@@ -27,11 +34,20 @@ public class miningLaser : MonoBehaviour
         
         if (Input.GetMouseButton(0))//press left mouse button to shoot laser
         {
+            if (soundPlaying == false)
+            {
+                //play sound
+                laserBeam.Play(0);
+                soundPlaying = true;
+            }
             m_lineRenderer.enabled = true;
             ShootLaser();
         }
         else
         {
+            //play sound
+            laserBeam.Stop();
+            soundPlaying = false;
             m_lineRenderer.enabled = false;//turns off laser if space is not held
         }
         gunRotation();//rotates the laser
@@ -52,6 +68,14 @@ public class miningLaser : MonoBehaviour
             {
                 //draw laser to hit point
                 drawLaser(laserFirePoint.position, hit.point);
+                if(hit.collider.gameObject.name == "Enemy")
+                {
+                    hitEnemy = true;
+                }
+                else
+                {
+                    hitEnemy = false;
+                }
                 //check what was hit and if we can use send message
                 if (hit.collider.gameObject.name == "Enemy" || hit.collider.gameObject.tag == "miningRocks")
                 {
@@ -71,9 +95,19 @@ public class miningLaser : MonoBehaviour
     //function to draw mining laser
     void drawLaser(Vector2 startPos, Vector2 endPos )
     {
+        
+
+        //positions
         m_lineRenderer.SetPosition(0, startPos);
         m_lineRenderer.SetPosition(1, endPos);
         m_lineRenderer.SetWidth(0.08f/2, 0.08f/2);
+        
+        if(hitEnemy)
+        {
+            Instantiate(bloodSplatter, endPos, Quaternion.identity);
+
+        }
+        else
         Instantiate(laserParticle, endPos, Quaternion.identity);
 
     }

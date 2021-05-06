@@ -16,7 +16,8 @@ public class pauseGame : MonoBehaviour
     void Start()
     {
         //set up buttons
-        Button resumeButton = resume.GetComponent<Button>();
+        
+Button resumeButton = resume.GetComponent<Button>();
         resumeButton.onClick.AddListener(resumeOnClick);
 
         Button restartButton = restart.GetComponent<Button>();
@@ -24,7 +25,6 @@ public class pauseGame : MonoBehaviour
 
         Button exitButton = exit.GetComponent<Button>();
         exitButton.onClick.AddListener(exitOnClick);
-
     }
 
     // Update is called once per frame

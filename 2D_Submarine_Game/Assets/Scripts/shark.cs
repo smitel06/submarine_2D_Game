@@ -6,7 +6,7 @@ using Pathfinding;
 public class shark : MonoBehaviour
 {
     float sharkStartHealth;
-    float sharkHealth;
+    public float sharkHealth;
     SpriteRenderer m_spriteRender; //the sprite component
     //ai path
     public AIPath aiPath;
@@ -27,6 +27,12 @@ public class shark : MonoBehaviour
     float timeCompare;
     //safe distance
     bool isPlayerSafe;
+    //game manager
+    public GameObject gameManager;
+    //blood explosion
+    public GameObject bloodExplosion;
+    //TIMER
+    float timer;
 
 
 
@@ -35,9 +41,9 @@ public class shark : MonoBehaviour
         //player in safe asre
         isPlayerSafe = true;
 
-        attackTimer = 3f; // 3 seconds between attacks
+        attackTimer = 4.5f; // 3 seconds between attacks
         //set health
-        sharkStartHealth = 1000;
+        sharkStartHealth = 500;
         sharkHealth = sharkStartHealth;
         //starting values
         level = 1;
@@ -57,21 +63,31 @@ public class shark : MonoBehaviour
         //kill shark if health is 0
         if(sharkHealth == 0)
         {
+            Instantiate(bloodExplosion, this.transform.position, Quaternion.identity);
+            Instantiate(bloodExplosion, this.transform.position, Quaternion.identity);
+            Instantiate(bloodExplosion, this.transform.position, Quaternion.identity);
+            Instantiate(bloodExplosion, this.transform.position, Quaternion.identity);
+
+
+            gameManager.SendMessage("addToScore", 1000 * level);
+
             //increase level, movement speed and health
             level++;
             //if level is over 5 level equals 5
             if (level > 10)
                 level = 10;
             //respawn 
+
             this.gameObject.transform.position = spawnPoint.transform.position;
             if(level > 1)
             {
-                sharkHealth = sharkStartHealth * level;
                 
                 //increase speed of shark by one each level
-                this.GetComponent<AIPath>().maxSpeed = this.GetComponent<AIPath>().maxSpeed ++;
+                this.GetComponent<AIPath>().maxSpeed += 0.5f;
                 startMaxSpeed = this.GetComponent<AIPath>().maxSpeed;
                 this.GetComponent<AIDestinationSetter>().changeTarget = false;
+                //increase health last
+                sharkHealth = sharkStartHealth * level;
             }
         }
 
@@ -116,7 +132,8 @@ public class shark : MonoBehaviour
             this.GetComponent<AIDestinationSetter>().changeTarget = true;
             isPlayerSafe = true;
         }
-        else if(safeDistance > 7 && isPlayerSafe == true)
+        
+        if(safeDistance > 7 && isPlayerSafe == true)
         {
             isPlayerSafe = false;
             this.GetComponent<AIDestinationSetter>().changeTarget = false;
@@ -154,7 +171,7 @@ public class shark : MonoBehaviour
     //on collision with player 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "Player")
+        if(collision.gameObject.name == "Player" && Time.time >= timeCompare)
         {
             this.GetComponent<AIDestinationSetter>().changeTarget = true;
 

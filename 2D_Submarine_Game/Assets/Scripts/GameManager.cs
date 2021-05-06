@@ -20,9 +20,15 @@ public class GameManager : MonoBehaviour
     public Text deathText;
     //pause screen
     public Canvas pauseScreen;
+    //scoring
+    public int score;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        //set score to nothing at start
+        score = 0;
         ///text to display to player when near shop
         shopEnterText = shopEnter.GetComponent<Text>();
     }
@@ -93,6 +99,11 @@ public class GameManager : MonoBehaviour
         gameOverScreen.SetActive(true);
         
         deathText.text = message;
+    }
+
+    void addToScore(int valueToAdd)
+    {
+        score += valueToAdd;
     }
 
 

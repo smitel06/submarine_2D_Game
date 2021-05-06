@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         currentResources = 0;
         
         //set Armor
-        maxArmor = 300;
+        maxArmor = 800;
         armor = maxArmor;
     }
 
@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
         //If armour = 0 you die
         if(armor == 0)
         {
+            Time.timeScale = 0;
             string message = "The shark destroyed you!";
             gameManager.SendMessage("GameOver", message);
             Debug.Log("GameOver");

@@ -3,6 +3,9 @@ using UnityEngine.UI;
 
 public class shopScript : MonoBehaviour
 {
+
+
+    public GameObject gameManager;
     //upgrade levels
     float engineLevel;
     float fuelTankLevel;
@@ -136,6 +139,9 @@ public class shopScript : MonoBehaviour
 
                 player.GetComponent<PlayerController>().movementSpeed += 100;
                 player.GetComponent<PlayerController>().currentResources -= 1500f;
+                //add to score
+                gameManager.SendMessage("addToScore", 1000 * engineLevel);
+
             }
             else
             {
@@ -164,6 +170,8 @@ public class shopScript : MonoBehaviour
                 player.GetComponent<PlayerController>().maxFuel = 6500 * fuelTankLevel;
                 player.GetComponent<PlayerController>().fuel = player.GetComponent<PlayerController>().maxFuel;
                 player.GetComponent<PlayerController>().currentResources -= 1500f;
+                //score
+                gameManager.SendMessage("addToScore", 1000 * fuelTankLevel);
             }
             else
             {
@@ -191,6 +199,8 @@ public class shopScript : MonoBehaviour
                 player.GetComponent<PlayerController>().maxArmor = 300 * armorLevel;
                 player.GetComponent<PlayerController>().armor = player.GetComponent<PlayerController>().maxArmor;
                 player.GetComponent<PlayerController>().currentResources -= 1500f;
+                //score
+                gameManager.SendMessage("addToScore", 1000 * armorLevel);
             }
             else
             {
