@@ -7,7 +7,7 @@ public class tilescript : MonoBehaviour
 {
     public Tilemap tilemap;
     public int destroyCounter;
-    private int counter;
+    public int counter;
     
     public void HitByLaser(RaycastHit2D hit)//when hit by laser carve away tile
     {

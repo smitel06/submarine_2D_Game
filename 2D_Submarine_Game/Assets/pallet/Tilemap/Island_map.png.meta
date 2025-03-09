@@ -527,6 +527,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -536,8 +538,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -558,9 +560,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -4152,6 +4157,175 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Island_map_82: -6718076266303862804
+      Island_map_160: -4818833786715742491
+      Island_map_90: 459679917905539553
+      Island_map_68: -3384550223015964456
+      Island_map_20: -2869381435570136223
+      Island_map_3: 5077464497584876802
+      Island_map_13: -6019315734070869932
+      Island_map_39: 5509930400006086030
+      Island_map_108: -6571092771122702704
+      Island_map_125: -7841294840194884918
+      Island_map_74: 5523325054442931124
+      Island_map_9: -9037785863249276178
+      Island_map_136: -8075830035460950314
+      Island_map_126: -7869664822800311262
+      Island_map_80: 4924272207835634341
+      Island_map_133: -8119044802870725633
+      Island_map_158: -299541448814262539
+      Island_map_35: -253977363823334295
+      Island_map_78: -779446528985904178
+      Island_map_43: -6220559325271483507
+      Island_map_94: -6382948644723682546
+      Island_map_121: -2832563912732261714
+      Island_map_2: 1092359545462876656
+      Island_map_7: 5354187097840565368
+      Island_map_97: -2296321032621111893
+      Island_map_53: -1737104611156838049
+      Island_map_144: 8062717755492665130
+      Island_map_134: 479077977567653874
+      Island_map_63: -3550630284202796996
+      Island_map_56: 577033553575322496
+      Island_map_95: 8675957920515983719
+      Island_map_93: -7574841868342288051
+      Island_map_151: -5561877366093000857
+      Island_map_19: 5913952299169044378
+      Island_map_124: 4398051697673049533
+      Island_map_14: -1780390700696395710
+      Island_map_1: -5797303602238388154
+      Island_map_84: 4365185417315571582
+      Island_map_34: 6531555165372696243
+      Island_map_105: 7208542771336056459
+      Island_map_142: 6735570695139623713
+      Island_map_110: 6571614881256656455
+      Island_map_141: -1687089379692169844
+      Island_map_25: -4156738495765716964
+      Island_map_31: -8427256955763758158
+      Island_map_150: -6820639398681422663
+      Island_map_165: 8652212264082473068
+      Island_map_116: -2618830453445247239
+      Island_map_146: -4110680893880900812
+      Island_map_103: 6544373658790902037
+      Island_map_131: -5942797933421660890
+      Island_map_163: 4508131424282197858
+      Island_map_114: 427624514536891366
+      Island_map_167: 7277629458790337585
+      Island_map_50: -7298882913595693990
+      Island_map_164: -1331097264141692023
+      Island_map_140: -7251339468018534368
+      Island_map_59: -8132968331602670623
+      Island_map_23: 4699050255465230914
+      Island_map_54: -5524185293624319077
+      Island_map_96: -2972237658681471600
+      Island_map_111: -6382653399945493111
+      Island_map_139: 1364981213226948476
+      Island_map_38: 9169613782477330292
+      Island_map_135: -208827424873936110
+      Island_map_30: 1646761214512753613
+      Island_map_48: 8522142430626913772
+      Island_map_115: 2812896628988787678
+      Island_map_73: 2316205571812679174
+      Island_map_120: 2741394076922481448
+      Island_map_60: 6024320230551916989
+      Island_map_55: -8267290507127018058
+      Island_map_128: 6433969176920990003
+      Island_map_101: 7530871360060656865
+      Island_map_98: -5397476311689802343
+      Island_map_148: -2049700029619969743
+      Island_map_166: -8753611309333650434
+      Island_map_153: -8351348068087141362
+      Island_map_61: -2795216074472190197
+      Island_map_161: -7912433731741576519
+      Island_map_83: 7079037067178722498
+      Island_map_154: -6463894502430590156
+      Island_map_137: 1952454870911921162
+      Island_map_102: 3571690084266253982
+      Island_map_27: -6495601105043767525
+      Island_map_127: -1028825424479373713
+      Island_map_89: -8463728274754526753
+      Island_map_119: 7400293721761133015
+      Island_map_129: -7315424585049049409
+      Island_map_72: -7884543293438442310
+      Island_map_79: 3959894821540303171
+      Island_map_66: 4226179802643228205
+      Island_map_113: -3112096566030426717
+      Island_map_28: -2816537853606482424
+      Island_map_86: -32363455475312295
+      Island_map_49: -6217281201881129572
+      Island_map_130: -358083182037727673
+      Island_map_112: 7264902596852914383
+      Island_map_18: -1263901627837152724
+      Island_map_156: -8823556123463149443
+      Island_map_46: -933456709488381859
+      Island_map_24: 8684832182979577380
+      Island_map_58: 5870735561228215173
+      Island_map_64: -4172591164241883754
+      Island_map_41: -2531794520959141150
+      Island_map_106: -818870866864297314
+      Island_map_65: 2894271504247945853
+      Island_map_62: 8441937683041660450
+      Island_map_44: -7909606692312410920
+      Island_map_8: -7877436330880917227
+      Island_map_22: 2002088262377518444
+      Island_map_40: 5598413033816005295
+      Island_map_122: 9131134794161780563
+      Island_map_117: 1298030415417187451
+      Island_map_123: -6632348805982880210
+      Island_map_42: 3968718476592981909
+      Island_map_69: 4715293188695704580
+      Island_map_26: -4592798312183950161
+      Island_map_87: -1598057113539586703
+      Island_map_10: -1925943471378211964
+      Island_map_6: 1851392856218194469
+      Island_map_52: -6371109249296613471
+      Island_map_143: 6250644153095025520
+      Island_map_147: -3483666558509322378
+      Island_map_33: 5088434828280797758
+      Island_map_138: 1010944062728386043
+      Island_map_16: -5432908007909718255
+      Island_map_17: 553918218217774853
+      Island_map_75: -7086378986636046377
+      Island_map_88: 2768056551946972870
+      Island_map_12: -4626124388693257032
+      Island_map_85: -1260549623581427113
+      Island_map_21: -2428910825568287914
+      Island_map_91: 2090080531911081578
+      Island_map_57: -9126877448046938125
+      Island_map_99: -148529725917502667
+      Island_map_104: -3205304621663308740
+      Island_map_92: 4674522815328149084
+      Island_map_132: -6087369532620020874
+      Island_map_159: -3650957377894504114
+      Island_map_162: -18279105191401275
+      Island_map_15: 4728477150990091674
+      Island_map_100: -6064257635021327523
+      Island_map_45: -5793497219187786024
+      Island_map_145: 4043046313108789930
+      Island_map_107: -8816245813595319582
+      Island_map_77: 2118028298185480639
+      Island_map_37: -2315470984796855216
+      Island_map_67: -688318032266102441
+      Island_map_118: -778358395881909321
+      Island_map_11: -202991627793204056
+      Island_map_32: 3009889592392975441
+      Island_map_36: 2248194809276926076
+      Island_map_152: -4320041101842718841
+      Island_map_109: 569552490913612215
+      Island_map_4: -975177064110742876
+      Island_map_0: 7375206116651046738
+      Island_map_81: -5070944432066739857
+      Island_map_70: 4239046905564753445
+      Island_map_51: 6084287755473773122
+      Island_map_5: 7263504392961692084
+      Island_map_71: -2782898558490707846
+      Island_map_76: 8577657444561879155
+      Island_map_157: -2103718274648871900
+      Island_map_29: -3348635711565734264
+      Island_map_47: 1110001840982488645
+      Island_map_155: 5028134039152764352
+      Island_map_149: 4511473830943877473
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

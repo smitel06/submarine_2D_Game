@@ -36,23 +36,28 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //camera follows player keeping player to centre of screen
-        mCam.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -5);
-        
-        //change message depending on activity of shop
-        if(shopActive == true)
-        {
-            shopMessage = "Press E to Exit Shop";
-        }
-        else
-        {
-            shopMessage = "Press E to Enter Shop";
-        }
-        shopEnterText.text = shopMessage;
+        CameraFollow();
+        ControlShop();
+        CheckForShop();
+        PauseGame();
 
+    }
+
+    private void PauseGame()
+    {
+        //PAUSE
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            pauseScreen.enabled = true;
+            Time.timeScale = 0;
+        }
+    }
+
+    private void CheckForShop()
+    {
         //how close is the player to the shop
         shopDistance = Vector2.Distance(player.transform.position, researchCentre.transform.position);
-        if(shopDistance < 4)
+        if (shopDistance < 4)
         {
             //show text to enter shop
             shopEnterText.enabled = true;
@@ -80,17 +85,26 @@ public class GameManager : MonoBehaviour
             shop.SetActive(false);
             shopEnterText.enabled = false;
         }
+    }
 
-
-        //PAUSE
-        if (Input.GetKey(KeyCode.Escape))
+    private void ControlShop()
+    {
+        //change message depending on activity of shop
+        if (shopActive == true)
         {
-            pauseScreen.enabled = true;
-            Time.timeScale = 0;
+            shopMessage = "Press E to Exit Shop";
         }
+        else
+        {
+            shopMessage = "Press E to Enter Shop";
+        }
+        shopEnterText.text = shopMessage;
+    }
 
-
-
+    private void CameraFollow()
+    {
+        //camera follows player keeping player to centre of screen
+        mCam.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -5);
     }
 
     void GameOver(string message)
